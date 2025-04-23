@@ -1,0 +1,54 @@
+@media (max-width:1200px) {
+    #container{
+       width: 50%;
+       
+    }
+}
+
+@media (max-width:950px) {
+    #container{
+        width: 60%;
+    }
+}
+
+@media (max-width:800px) {
+    #container{
+        width: 70%;
+    }
+}
+@media (max-width:670px) {
+    #container{
+        width: 80%;
+    }
+}
+@media (max-width:567px) {
+    #container{
+        width: 100%;
+    } 
+   
+}
+
+@media (max-width:467px) {
+    #date_input{
+        display: flex;
+        flex-direction: column;   
+        margin-top: 0px;
+        margin-bottom: 15px;
+    }
+    label{
+          margin-top: 0px;
+          margin-bottom: 0px;
+          display: block;
+    }
+    #input_Year, #input_day, #input_month{
+        margin-top: 0px;
+    }
+    #container{
+        width: 100%;
+        height: auto;
+    }
+    #btn{
+        margin-bottom: 40px;
+        display: block;
+    }
+}
